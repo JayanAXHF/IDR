@@ -1,0 +1,35 @@
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.img--frame{
+    width: 90%;
+    margin-top: 15px;
+    align-self: center;
+    border-radius: 15px;
+
+}
+
+
+.youtube-container{
+    align-self: center; 
+    width: 100%; 
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+
+}
+
+.youtube-container > iframe{
+width: 90%;
+height: auto;
+column-gap:20px;
+border-radius: 10px;
+}
